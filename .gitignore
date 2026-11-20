@@ -1,0 +1,15 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.ssh/
+.aws/
+.secrets/
+*.key
+*.p12
+*.pfx
+id_ed25519
+id_rsa
+*_ed25519
+*.tfstate
+*.tfstate.*
